@@ -1,0 +1,9 @@
+{
+	"deploy":{
+		"container": "TOMCAT7",
+		"war": [{
+			"file": "acme-handy-worker.war",
+			"context" : "/"
+		}]
+	}
+}
